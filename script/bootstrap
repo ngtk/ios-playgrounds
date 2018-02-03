@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo ""
+echo "iOS Playgrounds"
+echo ""
+
+echo "+ Updating dependencies..."
+carthage update
+echo "Updated."
+echo ""
+echo "All done. You can start playgrounds to open workspace:"
+echo "$ open Playground.xcworkspace"
+
