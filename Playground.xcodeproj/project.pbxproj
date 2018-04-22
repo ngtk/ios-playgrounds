@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8419769E20256E4E0052FE1C /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8419769D20256E4E0052FE1C /* SnapKit.framework */; };
 		8419769F20256E4E0052FE1C /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8419769D20256E4E0052FE1C /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84C7C7C2208C5437006E360A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84C7C7C1208C5437006E360A /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		8419769D20256E4E0052FE1C /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		8469A8D62025988A00A4C33A /* Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C7C7C1208C5437006E360A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84D4F51F20256F6000D9C350 /* PropertyBasedAnimations.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PropertyBasedAnimations.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -46,10 +48,19 @@
 		8419767620256CD90052FE1C = {
 			isa = PBXGroup;
 			children = (
+				84C7C7C3208C54A1006E360A /* Playground */,
 				84D4F51F20256F6000D9C350 /* PropertyBasedAnimations.playground */,
 				8419769D20256E4E0052FE1C /* SnapKit.framework */,
 				8469A8D62025988A00A4C33A /* Playground.app */,
 			);
+			sourceTree = "<group>";
+		};
+		84C7C7C3208C54A1006E360A /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				84C7C7C1208C5437006E360A /* Info.plist */,
+			);
+			path = Playground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +123,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C7C7C2208C5437006E360A /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +252,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U289H9KMH4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -258,6 +271,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U289H9KMH4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
