@@ -5,7 +5,7 @@ echo "iOS Playgrounds"
 echo ""
 
 echo "+ Updating dependencies..."
-carthage update
+carthage update --platform iOS
 echo "Updated."
 echo ""
 echo "All done. You can start playgrounds to open workspace:"
